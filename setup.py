@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
     name='geexeetoo',
-    version='0.1.0',
+    version='0.1.1',
     author='Geexee',    
-    py_modules=find_packages(include=['geexeetoo.*']),
+    packages=['geexeetoo', 'geexeetoo.console'],
 )
